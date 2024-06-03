@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* inicio header */
+header{
+    height: 65px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: #dcdcdc;
+}
+
+.logo img{
+    height: 65px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a{
+    padding-left: 20px;
+}
+
+.contenedorHeader{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+
+/* main */
+
+main{
+    display: flex;
+}
+
+.modulos{
+    height: calc(100vh - 65px);
+    width: 33.3%;
+    background-image: url(./scr/modulos.jpeg);
+    background-position: left;
+    background-size: cover;
+    
+}
+.electricos{
+    height: calc(100vh - 65px);
+    width: 33.3%;
+    background-image: url(./scr/fotocontrol.jpeg);
+    background-position: left;
+    background-size: cover;
+    
+}
+.cables{
+    height: calc(100vh - 65px);
+    width: 33.3%;
+    background-image: url(./scr/cables.jpeg);
+    background-position: right;
+    background-size: cover;
+}
