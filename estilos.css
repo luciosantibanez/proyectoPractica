@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: poppins;
 
 }
+
+
 
 /* inicio header */
 header{
     height: 65px;
     width: 100%;
     font-family: "Poppins", sans-serif;
-    background-color: #dcdcdc;
+    background-color: #1a1a1a;
+}
+
+header:hover{
+    background-color: #b1b1b1;
+    
 }
 
 .logo img{
@@ -22,11 +30,20 @@ header{
 nav{
     display: flex;
     align-items: center;
-    
 }
 
 nav a{
     padding-left: 20px;
+    color: white;
+}
+
+header:hover{
+    transition: .4s;
+}
+
+header:hover nav a{
+    transition: .1s;
+    color: #1a1a1a;
 }
 
 .contenedorHeader{
@@ -37,11 +54,24 @@ nav a{
     height: 65px;
 }
 
+
 /* main */
 
 main{
+    height: calc(100vh - 65px) ;
+    width: 100%;
+    background-image: url(./scr/living.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+/* carts */
+
+.carts{
     display: flex;
 }
+
+
 
 .modulos{
     height: calc(100vh - 65px);
@@ -54,8 +84,8 @@ main{
 .electricos{
     height: calc(100vh - 65px);
     width: 33.3%;
-    background-image: url(./scr/fotocontrol.jpeg);
-    background-position: left;
+    background-image: url(./scr/modular.jpg);
+    background-position: center;
     background-size: cover;
     
 }
@@ -66,3 +96,71 @@ main{
     background-position: right;
     background-size: cover;
 }
+
+/* Seccion quienes somos */
+
+.quienesSomos{
+    height: 100vh;
+    width: 100%;
+}
+
+.nosotros{
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.nosotros h2{
+    font-size: 36px;
+    font-weight: 300;
+    color: #818181;
+}
+
+.nosotrosCarts{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 70px;
+}
+
+.nosotrosCarts .cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    width: 300px;
+    height: 370px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+}
+
+.cart:hover{
+    transform: scale(.99);
+    transition: .2s;
+}
+
+.nosotrosCarts img{
+    height: 100px;
+}
+
+.nosotrosCarts h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: poppins;
+}
+
+.nosotrosCarts p{
+    font-size: 14px;
+    
+}
+
+
+
