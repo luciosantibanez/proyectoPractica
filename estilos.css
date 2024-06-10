@@ -10,6 +10,7 @@
 
 
 /* inicio header */
+
 header{
     height: 65px;
     width: 100%;
@@ -17,19 +18,18 @@ header{
     background-color: #1a1a1a;
 }
 
-header:hover{
-    background-color: #b1b1b1;
-    
+.logoMacroled{
+    align-content: center;
 }
 
-.logo img{
-    height: 65px;
-    
+.logoMacroled img{
+    height: 35px;
 }
 
 nav{
     display: flex;
     align-items: center;
+    
 }
 
 nav a{
@@ -38,12 +38,16 @@ nav a{
 }
 
 header:hover{
-    transition: .4s;
+    transition: .2s;
+    height: 75px;
+    
+    align-content: center;
 }
 
-header:hover nav a{
+header nav a:hover{
     transition: .1s;
-    color: #1a1a1a;
+    color: #46aaff;
+    
 }
 
 .contenedorHeader{
@@ -69,37 +73,36 @@ main{
 
 .productos{
     background-color: #c7c7c7;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+
 }
 
 .cartProductos{
     display: flex;
-    gap: 10px;
     max-width: 1200px;
     margin: auto;
-    justify-content: center;
-    
+    gap: 10px;
 }  
 
 .cartProductos .cart{
     height: 70vh;
-    width: 350px;
-    max-width: 1200px;
-    margin: auto;
+    width: 400px;
+    border-radius: 0px 25px 0px 25px;
+    
 
 }
 
 .cart h5{
     background-color: #535353;
     height: 40px;
-    width: 100%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
     font-weight: 300;
-    color: #b1b1b1;
+    color: #eeeeee;
     text-transform: uppercase;
 }
 
@@ -110,7 +113,6 @@ main{
     width: 100%;
     color: #535353;
     font-size: 36px;
-    text-transform: uppercase;
 }
 
 .tituloProductos h4{
@@ -138,13 +140,14 @@ main{
 /* Seccion quienes somos */
 
 #quienesSomos{
-    height: 100vh;
     width: 100%;
     background-color: #eeeeee;
+    height: 80vh;
+    align-content: center;
 }
 
 .nosotros{
-    padding: 60px 0px 60px 0px;
+    padding: 0px 0px 40px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,9 +165,8 @@ main{
 .nosotrosCarts{
     display: flex;
     justify-content: center;
-    max-width: 1200px;
-    margin: auto;
     gap: 70px;
+    /* padding-bottom: 60px; */
 }
 
 .nosotrosCarts .cart{
@@ -174,26 +176,25 @@ main{
     text-align: center;
     padding: 20px 20px 10px 20px;
     width: 300px;
-    height: 370px;
+    /* height: auto; */
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.301);
     border-radius: 10px;
 }
 
 .cart:hover{
-    transform: scale(.99);
+    transform: scale(1.01);
     transition: .2s;
 }
 
 .nosotrosCarts img{
-    height: 100px;
+    /* height: 100px; */
 }
-
 .nosotrosCarts h4{
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 24px;
     text-transform: uppercase;
-    font-family: poppins;
+    
 }
 
 .nosotrosCarts p{
@@ -222,26 +223,33 @@ footer h4{
 }
 
 .footerTop{
-    height: 100px;
-    
+    height: 15vh;
     width: 100%;
-    
+    align-content: center;
     background-color: #46aaff;
+    color: #eeeeee;
 }
 
 .footerBottom{
-    height: 50px;
+    height: 5vh;
     width: 100%;
-    
+    align-content: center;
     background-color: #303030;
+    color: #eeeeee;
 }
 
 .marca{
-
+    width: 33.3%;
+    display: flex;
+    justify-content: start;
 }
 .logo{
-    
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
 }
 .desarrollo{
-    
+    width: 33.3%;
+    display: flex;
+    justify-content: end;
 }
