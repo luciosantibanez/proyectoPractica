@@ -356,6 +356,29 @@ footer h4{
         margin: 0;
         font-size: 20px;
     }
+
+    .footerBottom{
+        height: 50px;
+        font-size: 12px;
+        
+    }
+
+    .contenedorFooter{
+        justify-content: space-between;
+        max-width: 90vw;
+    }
+
+    .footerTop{
+        height: 150px;
+        display: flex;
+        
+
+    }
+
+    .logo img{
+        /* height: 50px; */
+        width: 150px;
+    }
     
 }
 
