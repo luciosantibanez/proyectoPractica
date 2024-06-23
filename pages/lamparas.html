@@ -4,26 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Kalop</title>
+    <title>Macroled</title>
+
 </head>
 <body>
     <header>
         <div class="contenedorHeader">
             <div class="logoMacroled">
-                <a href="../index.html"><img src="../scr/logoblanco.png" alt=""></a>
+                <a href="../index.html"><img src="/scr/logoblanco.png" alt=""></a>
             </div>
-            <nav>
-                <a href="">Nosotros</a>
-                <a href="./modulos.html">Modular</a>
-                <a href="./lamparas.html">Lamparas</a>
-                <a href="./cables.html">Cables</a>
+            <div class="menu-hamburguesa" id="menu-icon">
+                <img src="/scr/menu-alt-01-svgrepo-com (1).svg" alt="Menú" height="30px">
+            </div>
+            <nav id="menu">
+                <a href="../index.html#quienesSomos">Nosotros</a>
+                <a href="../pages/modulos.html">Modular</a>
+                <a href="../pages/lamparas.html">Lámparas</a>
+                <a href="../pages/cables.html">Cables</a>
                 <a href="">Contacto</a>
             </nav>
         </div>
     </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-12">
+                <div class="filters p-3 mt-4">
+                    <h2>Filtros</h2>
+                    <label for="search">Buscar:</label>
+                    <input type="text" id="search" name="search" class="form-control mb-3">
+                    <label for="category">Categoría:</label>
+                    <select id="category" name="category" class="form-control mb-3">
+                        <option value="all">Todas</option>
+                        <option value="category1">Categoría 1</option>
+                        <option value="category2">Categoría 2</option>
+                        <option value="category3">Categoría 3</option>
+                    </select>
+                    <label for="price">Precio:</label>
+                    <input type="range" id="price" name="price" min="0" max="1000" class="form-control mb-3">
+                    <button type="button" class="btn btn-primary">Aplicar Filtros</button>
+                </div>
+            </div>
+            <div class="col-md-9 col-12">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaBlanca.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Blanco</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaX3.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Triple</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaBlanca.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Blanco</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaX3.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Triple</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaBlanca.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Blanco</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaX3.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Triple</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaBlanca.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Blanco</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaX3.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Triple</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaBlanca.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Blanco</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaX3.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Triple</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaBlanca.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Blanco</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 product p-3">
+                        <img class="img-fluid" src="../scr/lamparaX3.png" alt="">
+                        <h4 class="text-start ms-4 mb-0 tituloProducto">Colgante Triple</h4>
+                        <h6 class="text-start ms-4 mb-3 categoria">categoria</h6>
+                        <h6 class="text-start ms-4 mb-3 precioProducto">$5000</h6>
+                        <button type="button" class="btn btn-secondary">Añadir al carro</button>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+        <div class="footerTop">
+            <div class="contenedorFooter">
+                <div class="logo">
+                    <img src="/scr/logoblanco.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="contenedorFooter">
+                <div class="desarrollo"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+                    
+                </div>
+                <div class="marca">
+                    <h4>Desarrollado por Lucio Santibañez</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

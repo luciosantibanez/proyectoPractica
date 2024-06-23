@@ -37,9 +37,8 @@ nav a{
     color: white;
     font-size: 14px;
     font-weight: 300;
+    text-decoration: none;
 }
-
-
 
 header nav a:hover{
     transition: .1s;
@@ -222,6 +221,8 @@ footer{
 
 footer h4{
     font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 0px;
 }
 
 .footerTop{
@@ -240,21 +241,6 @@ footer h4{
     color: #eeeeee;
 }
 
-.marca{
-    width: 33.3%;
-    display: flex;
-    justify-content: start;
-}
-.logo{
-    width: 33.3%;
-    display: flex;
-    justify-content: center;
-}
-.desarrollo{
-    width: 33.3%;
-    display: flex;
-    justify-content: end;
-}
 
 
 /* MEDIA QUERYS */
@@ -387,9 +373,39 @@ footer h4{
 
 /* PAGINA MODULOS */
 
-.productoImg{
-    
+.container-fluid{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0px 40px 0px;
 }
 
+.filters {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
 
+.product {
+    background-color: #f0f0f0;
+    /* border: 1px solid #cccccc; */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.img-fluid{
+    padding: 20px;
+}
+
+h6.categoria{
+    font-weight: 400;
+    color: #868686;
+    font-size: 12px;
+
+}
+
+.img-fluid:hover{
+    transform: scale(1.07);
+    transition: .2s;
+
+}
 
