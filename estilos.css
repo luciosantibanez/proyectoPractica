@@ -4,10 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: poppins;
-
 }
-
-
 
 /* inicio header */
 
@@ -29,7 +26,6 @@ header{
 nav{
     display: flex;
     align-items: center;
-    
 }
 
 nav a{
@@ -43,7 +39,6 @@ nav a{
 header nav a:hover{
     transition: .1s;
     color: #46aaff;
-    
 }
 
 .contenedorHeader{
@@ -59,8 +54,8 @@ header nav a:hover{
     cursor: pointer;
 }
 
-
-/* main */
+/* FIN HEADER */
+/* MAIN*/
 
 main{
     height: calc(100vh - 65px) ;
@@ -70,13 +65,12 @@ main{
     background-size: cover;
 }
 
-/* carts */
+/* PRODUCTOS */
 
 .productos{
-    background-color: #c7c7c7;
+    background-color: #7e7e7e;
     width: 100%;
     height: 100vh;
-
 }
 
 .cartProductos{
@@ -89,22 +83,20 @@ main{
 .cartProductos .cart{
     height: 70vh;
     width: 400px;
-    border-radius: 0px 25px 0px 25px;
-    
-
+    border-radius: 0px 0px 25px 25px;
 }
 
 .cart h5{
-    background-color: #535353;
+    background-color: #ffffff;
     height: 40px;
-    width: 25%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
-    font-weight: 300;
-    color: #eeeeee;
-    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    /* text-transform: uppercase; */
 }
 
 .tituloProductos{
@@ -112,14 +104,16 @@ main{
     padding: 60px 0px 40px 0px;
     justify-content: center;
     width: 100%;
-    color: #535353;
-    font-size: 36px;
+    color: #f8f8f8;
+    font-size: 40px;
+    
 }
 
 .tituloProductos h4{
-    font-weight: 400;
+    font-weight: 300;
 }
-
+    /*CARTS  */
+    
 .modulos{
     background-image: url(./scr/hue-interruptor-mando-inteligente.webp);
     background-position: right;
@@ -127,13 +121,13 @@ main{
     
 }
 .electricos{
-    background-image: url(./scr/lamparas-decorativas-de-pared.jpg);
+    background-image: url(./scr/decorativaLampara.webp);
     background-position: center;
     background-size: cover;
     
 }
 .cables{
-    background-image: url(./scr/cable.jpg);
+    background-image: url(./scr/cable.webp);
     background-position: right;
     background-size: cover;
 }
@@ -142,9 +136,10 @@ main{
 
 #quienesSomos{
     width: 100%;
-    background-color: #eeeeee;
+    background-color: #e7e7e7;
     height: 80vh;
     align-content: center;
+
 }
 
 .nosotros{
@@ -158,9 +153,9 @@ main{
 }
 
 .nosotros h2{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
-    color: #818181;
+    color: #666666;
 }
 
 .nosotrosCarts{
@@ -187,20 +182,16 @@ main{
     transition: .2s;
 }
 
-.nosotrosCarts img{
-    /* height: 100px; */
-}
 .nosotrosCarts h4{
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     
 }
 
 .nosotrosCarts p{
     font-size: 14px;
-    
 }
 
 
@@ -368,9 +359,6 @@ footer h4{
     
 }
 
-
-
-
 /* PAGINA MODULOS */
 
 .container-fluid{
@@ -409,3 +397,16 @@ h6.categoria{
 
 }
 
+/* CONTACTOS */
+
+.container.contacto{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    height: calc(80vh - 65px);
+    justify-content: center;
+}
+
+.form-group{
+    margin: 20px;;
+}
