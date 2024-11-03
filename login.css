@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f4c6b,
+    #1f3e86
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px 25px;
+  box-shadow: 0 5px 10px rgba(71, 3, 6, 0, 7);
+}
+
+form .titulo {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+form label {
+  margin-bottom: 30px;
+}
+
+form label .fa-solid {
+  font-size: 20px;
+  color: #606c88;
+}
+
+form label input {
+  outline: none;
+  border: none;
+  color: #252525;
+  border-bottom: solid 1px #a8a8a8;
+  background-color: antiquewhite;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+form label input::placeholder {
+  color: #a8a8a8;
+  font-size: 14px;
+}
+
+form .link {
+  color: #3f4c6b;
+  margin-bottom: 15px;
+}
+
+form button {
+  color: antiquewhite;
+  border: none;
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f4c6b,
+    #1f3e86
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.volver{
+    display: flex;
+}
