@@ -5,8 +5,36 @@
         "id": 1,
         "nombre": "Unipolar Marron",
         "categoria": "Cables",
-        "precio": "$5000",
+        "precio": "$20000",
         "imagen": "../assets/unipolarMarron.png"
+      },
+      {
+        "id": 2,
+        "nombre": "Cable Tipo Taller",
+        "categoria": "Cables",
+        "precio": "$1000",
+        "imagen": "../assets/cablee.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Cable Tipo Taller",
+        "categoria": "Cables",
+        "precio": "$2000",
+        "imagen": "../assets/cablee.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Cable Tipo Taller",
+        "categoria": "Cables",
+        "precio": "$9000",
+        "imagen": "../assets/cablee.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Cable Tipo Taller",
+        "categoria": "Cables",
+        "precio": "$15000",
+        "imagen": "../assets/cablee.webp"
       },
       {
         "id": 2,
@@ -21,8 +49,71 @@
         "id": 1,
         "nombre": "Colgante Blanco",
         "categoria": "Lámparas",
-        "precio": "$5000",
+        "precio": "$1000",
         "imagen": "../assets/lamparaBlanca.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$4000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$19000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$20000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$12000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$8000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$500",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$2000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$20000",
+        "imagen": "../assets/lamparaX3.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$5000",
+        "imagen": "../assets/lamparaX3.webp"
       },
       {
         "id": 2,
@@ -37,7 +128,7 @@
         "id": 1,
         "nombre": "Tapa Gris",
         "categoria": "Modulares",
-        "precio": "$5000",
+        "precio": "$15000",
         "imagen": "../assets/moduloGris.webp"
       },
       {
@@ -45,6 +136,34 @@
         "nombre": "Tapa Mito",
         "categoria": "Modulares",
         "precio": "$5000",
+        "imagen": "../assets/llaveLuz.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Tapa Mito",
+        "categoria": "Modulares",
+        "precio": "$3000",
+        "imagen": "../assets/llaveLuz.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Tapa Mito",
+        "categoria": "Modulares",
+        "precio": "$15000",
+        "imagen": "../assets/llaveLuz.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Tapa Mito",
+        "categoria": "Modulares",
+        "precio": "$13000",
+        "imagen": "../assets/llaveLuz.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Tapa Mito",
+        "categoria": "Modulares",
+        "precio": "$18000",
         "imagen": "../assets/llaveLuz.webp"
       }
     ]
