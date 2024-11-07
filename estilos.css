@@ -60,7 +60,7 @@ header nav a:hover{
 main{
     height: calc(100vh - 65px) ;
     width: 100%;
-    background-image: url(./scr/living.webp);
+    background-image: url(./assets/living.webp);
     background-position: center;
     background-size: cover;
 }
@@ -115,19 +115,19 @@ main{
     /*CARTS  */
     
 .modulos{
-    background-image: url(./scr/hue-interruptor-mando-inteligente.webp);
+    background-image: url(./assets/hue-interruptor-mando-inteligente.webp);
     background-position: right;
     background-size: cover;
     
 }
 .electricos{
-    background-image: url(./scr/decorativaLampara.webp);
+    background-image: url(./assets/decorativaLampara.webp);
     background-position: center;
     background-size: cover;
     
 }
 .cables{
-    background-image: url(./scr/cable.webp);
+    background-image: url(./assets/cable.webp);
     background-position: right;
     background-size: cover;
 }
@@ -137,8 +137,9 @@ main{
 #quienesSomos{
     width: 100%;
     background-color: #e7e7e7;
-    height: 80vh;
+    min-height: 80vh;
     align-content: center;
+    padding: 60px 0px 100px 0px;
 
 }
 
@@ -148,7 +149,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 600px;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -160,9 +161,10 @@ main{
 
 .nosotrosCarts{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 70px;
-    /* padding-bottom: 60px; */
+    max-width: 70%;
+    margin: auto;
 }
 
 .nosotrosCarts .cart{
@@ -200,6 +202,8 @@ main{
 
 footer{
     width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 .contenedorFooter{
@@ -217,7 +221,7 @@ footer h4{
 }
 
 .footerTop{
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     align-content: center;
     background-color: #46aaff;
@@ -225,7 +229,7 @@ footer h4{
 }
 
 .footerBottom{
-    height: 5vh;
+    height: 10vh;
     width: 100%;
     align-content: center;
     background-color: #303030;

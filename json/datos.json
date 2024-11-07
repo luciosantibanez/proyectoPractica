@@ -1,0 +1,52 @@
+{
+  "productos": {
+    "cables": [
+      {
+        "id": 1,
+        "nombre": "Unipolar Marron",
+        "categoria": "Cables",
+        "precio": "$5000",
+        "imagen": "../assets/unipolarMarron.png"
+      },
+      {
+        "id": 2,
+        "nombre": "Cable Tipo Taller",
+        "categoria": "Cables",
+        "precio": "$5000",
+        "imagen": "../assets/cablee.webp"
+      }
+    ],
+    "lamparas": [
+      {
+        "id": 1,
+        "nombre": "Colgante Blanco",
+        "categoria": "Lámparas",
+        "precio": "$5000",
+        "imagen": "../assets/lamparaBlanca.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Colgante Triple",
+        "categoria": "Lámparas",
+        "precio": "$5000",
+        "imagen": "../assets/lamparaX3.webp"
+      }
+    ],
+    "modular": [
+      {
+        "id": 1,
+        "nombre": "Tapa Gris",
+        "categoria": "Modulares",
+        "precio": "$5000",
+        "imagen": "../assets/moduloGris.webp"
+      },
+      {
+        "id": 2,
+        "nombre": "Tapa Mito",
+        "categoria": "Modulares",
+        "precio": "$5000",
+        "imagen": "../assets/llaveLuz.webp"
+      }
+    ]
+  }
+}
